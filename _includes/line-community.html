@@ -11,39 +11,33 @@
 
 {% assign empty_array = "" | split: "," %}
 {% assign startups = author.startups | default: empty_array %}
-{% assign previously = author.previously | default: empty_array %}
 
 <tr>
     <td>{% if author.link.size > 0 %}
-            <a href="{{ author.link }}" target="_blank" rel="noopener" title="Site web de {{author.fullname}} - nouvelle fenêtre">{{ author.fullname }}</a>
+            <b><a href="{{ author.link }}" target="_blank" rel="noopener" title="Site web de {{author.fullname}} - nouvelle fenêtre">{{ author.fullname }}</a></b>
           {% else %}
-            {{ author.fullname }}
+            <b>{{ author.fullname }}</b>
           {% endif %}
+          <br />
+          <span class="fr-text--sm">{{ author.role }}</span>
       </td>
-    <td>{{ author.role }}</td>
     <td>
       <ul class="fr-tags-group">
-        {% for startup in startups, limit: 10 %}
+        {% for startup in startups, limit: 20 %}
           {% assign startup_id = "/startups/" | append: startup %}
           {% assign this_startup = site.startups | find: "id", startup_id %}
           {% if this_startup %}
             <li>
-              <a class="fr-tag" href="{{ this_startup.url }}" target="_self">{{ this_startup.title }}</a>
+              <a class="fr-tag" href="{{ this_startup.url }}">{{ this_startup.title }}</a>
             </li>
           {% else %}
             {% continue %}
           {% endif %}
         {% endfor %}
-        {% for startup in previously, limit: 10 %}
-          {% assign startup_id = "/startups/" | append: startup %}
-          {% assign this_startup = site.startups | find: "id", startup_id %}
-          {% if this_startup %}
+        {% for team in teams %}
             <li>
-              <a class="fr-tag" aria-disabled="true">{{ this_startup.title }}</a>
+              <span>{{ team.name }}</span>
             </li>
-          {% else %}
-            {% continue %}
-          {% endif %}
         {% endfor %}
       </ul>
     </td>

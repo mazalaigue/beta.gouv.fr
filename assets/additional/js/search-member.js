@@ -75,8 +75,7 @@ function markupForCard(params) {
 
   return `
 <tr>
-  <td>${title}</td>
-  <td>${detail}</td>
+  <td><b>${title}</b><br /><span class="fr-text--sm">${detail}</span></td>
   <td>
     ${tags ? '<ul class="fr-tags-group">' + tags + "</ul>" : ""}
     ${!!other ? '<p class="fr-card__detail">' + other + "</p>" : ""}

@@ -12,12 +12,15 @@ layout: default
                 "fullname": "{{ current.fullname}}",
                 "link": "{{ current.link }}",
                 "role": `{{ current.role }}`,
-                {% if current.avatar %} "avatar": "{{ current.avatar }}",{% endif %}
-                {% if current.github %} "github": "{{ current.github }}",{% endif %}
-                "content" : `{{ current.content }}`,
                 "missions": [
                     {% for mission in current.missions %}
                         { "start": "{{mission.start}}", "end": "{{mission.end}}", "status": "{{mission.status}}", "employer": "{{mission.employer}}" }{% unless forloop.last %},{% endunless %}
+                    {% endfor %}
+                ],
+                "teams": [
+                    {% for team in current.teams %}
+                        { "name": "{{team.name}}" }
+                        {% unless forloop.last %},{% endunless %}
                     {% endfor %}
                 ],
                 "incubator": "{{ current.incubator }}",
@@ -25,12 +28,7 @@ layout: default
                     {% for startup in current.startups %}
                         "{{ startup }}",
                     {% endfor %}
-                ],
-                "previously": [
-                    {% for previous_startup in current.previously %}
-                        "{{ previous_startup }}",
-                    {% endfor %}
-                ],
+                ]
             }
         {% unless forloop.last %},{% endunless %}
         {% endfor %}
@@ -41,18 +39,6 @@ layout: default
         title: "{{incubator.title}}",
         url: "/startups/?incubateur={{ incubator.id | remove: '/incubateurs/' }}"
         },
-        {% endfor %}
-    ];
-    var phases = [
-        {% for phase in site.phases %}
-            {% assign counter_target = phase.id | remove: "/phases/" %}
-            {% assign counter = site.startups | where_phase: counter_target | size %}
-            { "status"        : "{{ phase.status }}"
-            , "label"      : "{{ phase.label }}"
-            , "counter"      : "{{ phase.counter }}"
-            , "type_label" : "{{phase.type_label}}"
-            }
-            {% unless forloop.last %},{% endunless %}
         {% endfor %}
     ];
 
@@ -123,9 +109,8 @@ layout: default
                 <caption>Membres de la communauté</caption>                    
                 <thead>
                     <tr>
-                        <th scope="col">Nom </th>
-                        <th scope="col">Rôle </th>
-                        <th scope="col">Équipe</th>
+                        <th scope="col">Nom et rôle</th>
+                        <th scope="col">Mission en cours</th>
                     </tr>
                 </thead>
                 <tbody class="authors">
