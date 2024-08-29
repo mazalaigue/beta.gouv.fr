@@ -7,14 +7,20 @@ missions:
   - start: 2018-12-01
     end: 2022-12-31
     status: independent
+    employer: OCTO
+    startups:
+      - monstage
   - start: 2023-04-24
-    end: 2024-10-31
+    end: 2024-12-31
     status: independent
+    employer: UT7
+    startups:
+      - collectif_objets
 startups:
   - collectif_objets
 previously:
   - monstage
 competences:
   - Gestion de Produit
-  - Développement Fullstack
+  - Développement Full-stack
 ---

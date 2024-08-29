@@ -1,15 +1,14 @@
 ---
-link: https://labase.anct.gouv.fr/
-dashlord_url: >-
-  https://dashlord.inclusion-numerique.incubateur.anct.gouv.fr/url/labase-anct-gouv-fr/
-mission: >-
-  Faciliter le partage de ressources & de communs pour les acteurs de
-  l'inclusion numérique
+link: https://lesbases.anct.gouv.fr/
+dashlord_url: https://dashlord.inclusion-numerique.incubateur.anct.gouv.fr/url/lesbases-anct-gouv-fr/
+mission: Faciliter le partage de ressources & de communs pour les acteurs de l'inclusion numérique
 repository: https://github.com/inclusion-numerique/la-base
 incubator: anct
 title: Les Bases
 contact: thibault.rouveyrol@beta.gouv.fr
-accessibility_status: partiellement conforme
+accessibility_status: non conforme
+stats_url: https://lesbases.anct.gouv.fr/statistiques
+stats: true
 sponsors:
   - /organisations/anct
 phases:
@@ -39,11 +38,10 @@ Il n’existe pas aujourd’hui d’espace partagé (ou plusieurs, mais non-exha
 
 Proposer une plateforme collaborative, ouverte à tous, et dédiées aux professionnels de la médiation numérique, aux acteurs locaux et aux collectivités territoriales qui souhaitent partager, recenser, ou trouver des ressources autour de l'inclusion numérique.
 
-
 ## Statut actuel
 
 Une [enquête initiale](https://hackmd.io/@sonum/documentation) a été menée en 2021 auprès des différents acteurs pour recueillir leurs besoins, puis co-construire Les Bases.
 
 Au printemps 2022, une première version a été mise en ligne, et a permis de confronter la plateforme a la réalité de l'usage.
 
-Début 2023, une nouvelle enquête auprès des utilisateurs a initié une V2 de l'outil, qui sera déployé fin 2023
+Début 2023, une nouvelle enquête auprès des utilisateurs a initié une V2 de l'outil, déployé depuis février 2024

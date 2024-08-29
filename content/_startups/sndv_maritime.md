@@ -1,13 +1,13 @@
 ---
-mission: >-
-  Permettre aux services en charge du contrôle des frontières, de la lutte
-  contre la fraude et de la sécurité en mer d’exploiter plus facilement les
-  données maritimes.
+mission: Permettre aux services en charge du contrôle des frontières, de la lutte contre la fraude et de la sécurité en mer d’exploiter plus facilement les données maritimes.
 incubator: dinum
 repository: https://gitlab.mim-libre.fr/andv/demonstrateur-moana/moana
 contact: andv-moana@interieur.gouv.fr
 usertypes:
-  - etat
+  - Police aux frontières
+  - Douane
+  - Garde-côte
+  - Gendarmerie maritime
 title: ANDV - Maritime - MOANA
 sponsors:
   - /organisations/sndv
@@ -23,7 +23,18 @@ phases:
     end: 2022-09-20
   - name: acceleration
     start: 2022-09-20
+  - name: transfer
+    start: 2024-08-01
 analyse_risques: true
+thematiques:
+  - Controle frontière
+  - Lutte contre la fraude
+  - Sécurité en mer
+  - Maritime
+accessibility_status: non conforme
+budget_url: https://pad.numerique.gouv.fr/s/JIM1hTPo-#
+stats_url: https://stats.moana.andv.gouv.fr/public/dashboard/741cc8d9-a8bd-4e28-88df-315c88cb106e
+techno: []
 ---
 ## Contexte
 
@@ -50,4 +61,3 @@ La solution est élaborée avec et pour les utilisateurs finaux de manière ité
 Il existe 33 services (PAF/Douane) en charge du contrôle des frontières dans les points de passage frontaliers, dont 31 en France métropolitaine avec des données reçues par le guichet unique portuaire national.
 
 La priorisation du déploiement a été guidée par deux facteurs clés : la qualité de la donnée collecté sur le port x le volume d'escale sur le port.
-

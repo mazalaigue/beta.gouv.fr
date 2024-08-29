@@ -1,8 +1,6 @@
 ---
-title: Vigieau
-mission: >-
-  Faire évoluer les usagers vers des pratiques sobres de l’eau et respectueuses
-  des mesures de restriction.
+title: 'Préservons l''Eau '
+mission: 'Faire évoluer les usagers vers des pratiques sobres de l’eau, en particulier en période de sécheresse '
 sponsors:
   - /organisations/dgeb
 incubator: mtes
@@ -15,9 +13,11 @@ events:
   - name: product_launch
     date: 2023-07-11
 phases:
-  - name: investigation
-    start: 2023-04-04
+  - name: construction
+    start: 2024-01-26
 stats_url: https://vigieau.gouv.fr/stats/
+thematiques:
+  - Écologie
 ---
 ## Contexte
 
@@ -39,79 +39,55 @@ communes ont eu rupture d’approvisionnement en eau potable
 Pour répondre à cette problématique, l’Etat s’est outillé depuis 2012 d’une application de gestion des arrêtés de restriction d’eau : Propluvia. Néanmoins, l'outil ne permet pas aux usagers de savoir quelles sont les restrictions qui les concernent, des difficultés d'opérations majeures ont également affecté le site à l'été 2022. 
 Aussi, nous ne sommes pas en mesure aujourd'hui de mesurer l'impact des restrictions sur la consommation d'eau. 
 
-Le premier chantier de la planification écologique révélé le 30 mars 2023 vise une gestion sobre de la ressource afin de garantir de l’eau pour tous, de qualité et des écosystèmes préservés. Son objectif : réduire de 10% l’eau prélevée en France d’ici 2030
+Le premier chantier de la planification écologique révélé le 30 mars 2023 vise une gestion sobre de la ressource afin de garantir de l’eau pour tous, de qualité et des écosystèmes préservés. Parmi les objectifs :
+* Structurellement, une réduction de 10% de l’eau prélevée d’ici 2030, se déclinant par des plans de sobriété pour toutes les filières économiques (Mesure 1) 
+* Conjoncturellement, l’objectif de mieux répondre aux crises sécheresse avec une meilleure communication des restrictions en vigueur (Mesure 50) 
 
 ## Problème
 
-Comment faire évoluer les usagers vers des pratiques sobres de l’eau et respectueuses des mesures de restriction ?
-
-**Principaux problèmes identifiés pour les DDTs :** 
-
-\-﻿ Difficulté pour les DDTs à communiquer l'information sur les restrictions aux particuliers et à rendre cette information lisible.  
-
-\-﻿ Les DDTs perdent un temps significatif (11 jours par an par DDT environ) à faire remonter l'information des arrêtés cadres et arrêtés de restriction dans le back office existant : Propluvia Privé, il n'est pas adapté à leurs spécificités locales 
-
-**--> Près de la moitié des départements affichent des mesures sur VigiEau concernant l’eau potable qui ne sont pas cohérentes avec les mesures figurant dans les arrêtés**. 
+**Comment faire évoluer les usagers vers des pratiques sobres de l’eau, en particulier en période de sécheresse ?** 
 
 
-**P﻿rincipaux problèmes identifiés pour les particuliers :**
+**Etape 1 :** Levier restrictif / Permettre aux usagers d'avoir accès de manière lisible et compréhensible aux **restrictions** en vigueur en période de sécheresse
 
-\-﻿ Difficulté à comprendre la gravité sur l'état de la sécheresse et donc à se sentir concerné. Ils manquent d'information pour quantifier le problème (ex : quelle est la situation des nappes et cours d'eau) 
+La plateforme VigiEau lancée à l’été 2023 répond à la mesure 50 du Plan Eau. Permettre à l’usager d’avoir accès de manière lisible et simple aux restrictions en vigueur sur son territoire est une première étape vers l’objectif de sobriété hydrique. 
 
-\-﻿ Difficulté à se positionner dans ce problème (ex : ils n'ont aucune idée de leur consommation d'eau) 
+Néanmoins, suite à la mise en production de VigiEau, près de 50% des départements affichaient des mesures sur VigiEau concernant l’eau potable non cohérentes avec les mesures figurant dans les arrêtés. 
 
-**Principaux problèmes identifiés pour les collectivités :**
+En cause ? Un outil de saisie des arrêtés, Propluvia Privé, non adapté à une gestion spécifique à l’eau potable 
 
-\-﻿ Des données de consommation d’eau disponibles mais pas ou peu structurées / valorisées, en particulier : (i) pour les collectivités (qu’elles aient ou non la compétence eau potable, qu’elles soient ou non en télérelève) une méconnaissance sur leur consommation d’eau : la répartition par catégorie d’usager, par commune, … (ii) l’impossibilité aujourd’hui pour les collectivités de se comparer à d’autres collectivités 
+--> **Solution : VigiEau Admin** = outil de saisie des arrêtés sécheresse pour les DDT
+Objectif : Afficher des restrictions sur VigiEau cohérentes avec les restrictions en vigueur, en particulier, traduire lʼétat des ressources en eau dans les restrictions appliquées aux usages de lʼeau potable.
 
-\-﻿ Une difficile mobilisation/accompagnement des usagers (publics et privés) sur des actions d’économie d’eau 
+VigiEau Admin a été mis en production fin avril 2024 et déployé auprès des 101 DDTs
 
-\-﻿ La donnée sur l’état des ressources en eau existe mais n’est pas lisible par les usagers (publics et privés) pour évaluer/prendre conscience de sa disponibilité
+Communiquer sur les restrictions est une solution nécessaire mais elle est loin d'être suffisante. 
 
-\-﻿ Un modèle économique ne favorisant pas la réduction des consommations, “l’eau paye l’eau” les gestionnaires d’eau potable n’ont pas intérêt à encourager une réduction de la consommation 
+**Etape 2** :  **Inciter** les usagers à réduire leur consommation d'eau, en particulier en période de sécheresse
 
-**⇒ Les collectivités manquent de données valorisées, sur les consommations d’eau et la disponibilité de la ressource, à la bonne échelle et facilement compréhensible pour définir des plans d’action personnalisés et donc adaptés pour in fine réduire la consommation d’eau** 
+Quel périmètre pour l'expérimentation ? 
 
-## Solution
+* Le plus actionnable pour mesurer l’impact d’une solution court/moyen terme est de se concentrer sur la consommation d’eau potable. 
 
-D﻿ans un premier temps, création d'un outil permettant aux particuliers de : 
+* L’eau potable est un enjeu majeur puisqu’elle représente 26% de la consommation d’eau en France
 
-\-﻿ connaître les restrictions en vigueur sur leur territoire
+* Les collectivités ont la compétence eau potable et portent de plus en plus une volonté de sobriété hydrique
 
-\-﻿ mesurer leur consommation d'eau 
+Nous ne ciblerons pas les agriculteurs dans un premier temps car c’est une cible pour laquelle les données ne sont pas disponibles, donc impossible d’en mesurer l’impact à horizon 6 mois.
 
-\-﻿ s'informer sur les éco-gestes à adopter pour favoriser une consommation sobre de l'eau
-
-**L'outil a été lancé le 11 Juillet dernier**
-Bien que nécessaire, communiquer sur les restrictions d'eau n'est pas suffisant pour engager les usagers vers une baisse de la consommation d'eau.
+> La cible principale sera les usagers en eau potable des collectivités.
 
 
-D﻿ans un second temps, création de 2 outils : 
+## Solutions et impacts chiffrés pour les 6 prochains mois
 
-**1. Outil métier de saisie des données des arrêtés sécheresse**
+**Création dʼun service numérique dʼengagement vers une une sobriété hydrique des usagers des
+collectivités.**
 
-Cible prioritaire : DDTs**
+La solution propose un service d'incitation aux économies d'eau : 
+- via l'envoi d'une série d'email - envoyée de manière conjointe par la collectivité / l'état / le délégataire eau potable 
+- permettant dʼadresser directement les usagers sur (i) leur consommation dʼeau / comparaison à celle de consommateur similaire (ii) lʼétat des ressources en eau dont ils dépendent (iii) les restrictions
 
-À 6 mois :
-Déploiement de l’outil auprès des 101 DDT(M)s / DEAL
-Cet outil sera la base de donnée sur laquelle Vigieau s'appuie pour communiquer sur les restrictions d'eau
+**Objectifs de déploiement et dʼimpact**
 
-Indicateur de mesure d’impact  
-
-_ 90% des départements affichent des restrictions sur VigiEau cohérentes avec les restrictions communiquées localement
-
-_ 75% des DDTs satisfaits
-
-**2. Outil d’accompagnement à la sobriété eau de son territoire**
-
-Cible prioritaire : collectivité 
-
-À horizon septembre 2023 : 2 territoires tests, en télérelève, engagés dans l’expérimentation, avec mise à disposition de : 
-
-* un outil de visualisation des données de consommation à une maille adaptée aux services publics/privés pour définir des plans d’action personnalisés
-* un outil de visualisation des données sur l’état de la ressource en eau et sa disponibilité 
-* une TODO de premières actions à mener 
-
-Indicateur de mesure d’impact  
-_ 2 territoires tests engagées dans l’expérimentation (couvrant 100 000 abonnés) 
-_ des premiers changements de pratique (qui restent à préciser) : ex : intégration de ces outils / données dans les comités de révisions de PLU
+* A lʼhorizon septembre 2024, 2 collectivités (avec téléreleve) engagées dans lʼexpérimentation (couvrant chacune 5 000 abonnés minimum)
+* 10% de baisse de la consommation dʼeau à horizon 1 an pour lʼensemble de ces collectivités test.

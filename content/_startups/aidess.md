@@ -4,27 +4,24 @@ mission: Simplifier l'accès aux aides et aux financements publics des structure
 incubator: dinum
 contact: christophe.trouillard@jscs.gouv.fr
 redirect_from:
-    - /startups/AidESS-Relance
+  - /startups/AidESS-Relance
 phases:
-    - name: investigation
-      start: 2020-11-15
-      end: 2021-03-31
-    - name: alumni
-      start: 2021-06-04
-      comment: Malgré les travaux de la phase d'investigation ayant permis de
-          démontrer un problème et une hypothèse de stratégie à 6 mois, les deux
-          intrapreneurs n'ont malheureusement pas pu être financés et sponsorisés.
+  - name: investigation
+    start: 2020-11-15
+    end: 2021-03-31
+  - name: alumni
+    comment: Malgré les travaux de la phase d'investigation ayant permis de démontrer un problème et une hypothèse de stratégie à 6 mois, les deux intrapreneurs n'ont malheureusement pas pu être financés et sponsorisés.
+    start: 2021-06-04
 usertypes:
-    - association
-    - entreprise
+  - association
+  - entreprise
+thematiques: []
+techno: []
 ---
-
-# Fiche produit
-
 Comment faire pour soutenir les acteurs de l’économie sociale et solidaire (ESS) dans un contexte de crise, en particulier les structures les plus fragiles ?
 Périmètre de l’investigation : Préfectures des Régions Hauts-de-France et Bretagne
 
-## CONSTAT DE DÉPART
+## Constat de départ
 
 Les structures de l'ESS font face à de nombreuses difficultés depuis le début de la crise du Covid-19 :
 
@@ -34,7 +31,7 @@ Les structures de l'ESS font face à de nombreuses difficultés depuis le début
 
 ---
 
-## MÉTHODOLOGIE POUR LA PHASE DE RECHERCHE ET D'INVESTIGATION
+## Méthodologie pour la phase de recherche et d'investigation
 
 Notre investigation a visé à faire émerger les besoins à travers une série d’entretiens avec l’ensemble des acteurs : structures ESS, têtes de réseaux, structures d’accompagnement, porteurs d’aides et solutions de facilitation numérique déjà existantes.
 
@@ -46,7 +43,7 @@ La phase d’investigation vise à répondre à trois objectifs principaux :
 
 ---
 
-## PRINCIPAUX RÉSULTATS DE NOTRE RECHERCHE AUPRÈS DES BÉNÉFICIAIRES
+## Principaux résultats de notre recherche auprès des bénéficiaires
 
 Pour faire face à ces difficultés, il existe des aides publiques, mais elles sont mal connues par les acteurs de l’ESS, difficiles à obtenir et parfois inopérantes :
 
@@ -57,7 +54,7 @@ Pour faire face à ces difficultés, il existe des aides publiques, mais elles s
 
 Une partie des moyens de l’État (DDCS et ARS) est actuellement affectée à la sauvegarde de leurs opérateurs de terrain (associations de prévention, porteurs de structures sociale…), ce travail pourrait être réalisé plus efficacement en améliorant concrètement les modes de collaboration de l'État avec les experts des réseaux d’accompagnement et les collectivités territoriales.
 
-#### TROIS CONSTATS
+### Trois constats
 
 1. Les petites structures sont isolées, elles manquent de moyens humains (pour réaliser leur veille, tester leur éligibilité et monter leur dossier de demande d’aides).
 2. Un problème est rarement résolu par une seule aide, mais par une approche globale qui mobilise plusieurs acteurs.
@@ -65,13 +62,13 @@ Une partie des moyens de l’État (DDCS et ARS) est actuellement affectée à l
 
 ---
 
-## PUBLIC PRIORITAIRE
+## Public prioritaire
 
 Après cette première phase d’investigation, il apparaît que les structures de l’ESS les plus fragiles sont **les petites structures, en particulier les petites associations**.
 
 ---
 
-## SOLUTION PRESSENTIE
+## Solution pressentie
 
 Du temps et de l’argent public sont perdus lorsque Les structures de l’ESS (en particulier les plus petites) s’orientent vers les mauvaises aides et subventions... Cela pourrait être résolu par **un outil permettant la détection des petites structures puis la coordination et la communication entre les porteurs d’aides et les structures d’accompagnement**.
 

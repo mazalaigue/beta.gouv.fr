@@ -1,13 +1,11 @@
 ---
 title: France Nation Verte / Agir
-mission: >-
-  Accompagner les citoyens de manière personnalisée dans la transition
-  écologique
+mission: Accompagner les citoyens de manière personnalisée dans la transition écologique
 sponsors:
   - /organisations/sgpe
 incubator: dinum
 link: https://agir.beta.gouv.fr
-contact: agir@beta.gouv.fr
+contact: contact@agir.beta.gouv.fr
 accessibility_status: partiellement conforme
 repository: https://github.com/betagouv/agir-back
 phases:
@@ -15,6 +13,10 @@ phases:
     start: 2023-02-01
   - name: construction
     start: 2023-06-01
+thematiques:
+  - Écologie
+usertypes: []
+techno: []
 ---
 ## Contexte
 

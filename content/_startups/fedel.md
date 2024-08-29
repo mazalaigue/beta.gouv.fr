@@ -3,9 +3,7 @@ title: FEDEL-DM
 mission: Déclarer facilement sa manifestation sur la voie publique
 sponsors:
   - /organisations/interieur
-incubator: lab-mi
-link: null
-repository: null
+incubator: miom
 contact: contact@beta.interieur.gouv.fr
 usertypes:
   - particulier
@@ -19,7 +17,6 @@ phases:
   - name: alumni
     start: 2022-05-02
 ---
-
 ## La majorité des manifestations n'est pas déclarée
 
 La manifestation sur la voie publique est soumise à obligation de déclaration préalable.

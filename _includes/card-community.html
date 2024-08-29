@@ -13,6 +13,17 @@
   {%- capture timestampNow -%}{{ 'now' | date: '%s' }}{%- endcapture -%}
   {%- capture authorEndDate -%}{{ author.missions.last.end | date: '%s' }}{%- endcapture -%}
 {%- endif -%}
+
+{% assign empty_array = "" | split: "," %}
+{% assign startups = empty_array %}
+{%- if author.missions -%}
+    {% for mission in author.missions %}
+      {% for startup in mission.startups %}
+        {% assign startups = startups | push: startup %}
+      {% endfor %}
+    {% endfor %}
+{%- endif -%}
+
 <div class="fr-card fr-card--grey">
   <div class="fr-card__body">
     <div class="fr-card__content">
@@ -24,24 +35,23 @@
             {{ author.fullname }}
           {% endif %}
         </h3>
-        <p class="fr-card__detail">
+        
           {%- if timestampNow > authorEndDate -%}
-            Alumnus
-          {%- else -%}
-            {{ author.role }}
+            <p class="fr-card__detail">Alumnus</p>
+          {%- elsif author.role != nil -%}
+            <p class="fr-card__detail">{{ author.role }}</p>
           {%- endif -%}
 
-
           {%- unless include.hide_details -%}
-            <p class="fr-card__desc">
-              {{ author.content | strip_html }}
-            </p>
+            {% assign author_content = author.content | strip_newlines | size %}
+            {% if author_content > 0 %}
+              <p class="fr-card__desc">
+                {{ author.content | strip_html }}
+              </p>
+            {%- endif -%}
 
-            {% assign empty_array = "" | split: "," %}
-            {% assign startups = author.startups | default: empty_array %}
             {% assign previously = author.previously | default: empty_array %}
-            {% assign all_startups = startups | concat: previously | compact %}
-
+            {% assign all_startups = startups | concat: previously | compact | uniq %}
             {% unless all_startups == empty %}
               <div class="startups">
                 <ul class="fr-tags-group">

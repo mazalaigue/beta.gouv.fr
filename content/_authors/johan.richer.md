@@ -6,12 +6,14 @@ link: https://www.multi.coop/
 github: JohanRicher
 missions:
   - start: 2023-06-01
-    end: 2024-06-29
+    end: 2024-12-31
     status: service
     employer: Malt
+    startups:
+      - dialogue
 startups:
   - dialogue
 memberType: beta
+competences: []
 ---
-
-Outilleur #opensource #opendata
+Outilleur

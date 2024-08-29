@@ -2,12 +2,12 @@
 title: Signaux Faibles
 mission: Mieux cibler les interventions en remédiation de l’État vers les entreprises en difficulté
 sponsors:
-    - /organisations/dge
-    - /organisations/dgefp
-    - /organisations/bdf
-    - /organisations/acoss
-    - /organisations/dinum
-incubator: dinum 
+  - /organisations/acoss
+  - /organisations/bdf
+  - /organisations/dge
+  - /organisations/dgefp
+  - /organisations/dinum
+incubator: dinum
 phases:
   - name: investigation
     start: 2014-05-15
@@ -19,14 +19,14 @@ phases:
     start: 2020-03-01
 usertypes:
   - etat
-link: 
 repository: https://github.com/signaux-faibles
 stats: true
 stats_url: https://stats.signaux-faibles.beta.gouv.fr
 contact: contact@signaux-faibles.beta.gouv.fr
+thematiques: []
+techno: []
 ---
-  
-# Prévenir pour mieux guérir. Un algorithme pour lutter contre la faillite.
+> Prévenir pour mieux guérir. Un algorithme pour lutter contre la faillite.
 
 ## Le problème initial : la découverte tardive des difficultés d'entreprises
 
@@ -38,7 +38,9 @@ Les Commissaires au redressement productif institués en 2012, aujourd’hui ren
 
 Or, la sollicitation tardive des CRP et de ses partenaires est susceptible de réduire sensiblement le nombre et l’efficacité des leviers pouvant être actionnés en faveur des entreprises fragilisées. 
 
-## La solution : valoriser la richesse des données administratives pour produire un outil d’analyse prédictive des difficultés des entreprises
+## La solution 
+
+> **Valoriser la richesse des données administratives pour produire un outil d’analyse prédictive des difficultés des entreprises**
 
 À partir de l’analyse statistique des données passées et des trajectoires d’entreprises ayant fait défaut, « Signaux Faibles » signale un risque d’entrée en procédure collective. L’outil permet de repérer rapidement des tendances et des fragilités, en tâchant de mettre en valeur les signes avant-coureurs de difficultés des entreprises.
 

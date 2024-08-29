@@ -18,7 +18,17 @@
         {%- endif -%}
         <p class="fr-card__desc">{{ startup.mission | strip_html }}</p>
     </div>
-    <div class="fr-card__img">
-        {% include screenshot.html startup=startup %}
+    <div class="fr-card__header">
+        <div class="fr-card__img">
+            {% include screenshot.html startup=startup %}
+        </div>
+
+        {% if startup.events.last.name == "national_impact" %}
+        <div class="fr-badges-group">
+            <span class="fr-badge fr-badge--success">Service à impact national</span>
+        </div>
+        {% endif %}
     </div>
 </div>
+
+

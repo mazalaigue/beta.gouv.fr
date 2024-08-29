@@ -75,7 +75,7 @@ layout: default
         <div class="fr-container">
             <div class="fr-grid-row">
                 <div class="fr-col">
-                    <h2 class="fr-m-0 fr-mt-1w">L’incubateur en quelques chiffres</h2>
+                    <h2>L’incubateur en quelques chiffres</h2>
                 </div>
             </div>
             <div class="fr-grid-row fr-grid-row--gutters">
@@ -105,13 +105,13 @@ layout: default
                 </div>
                 <div class="fr-col-12 fr-col-sm-4">
                     {% if nationalsStartupsCount > 1 %}
-                        {% capture title %}{{ nationalsStartupsCount }} services nationaux{% endcapture %}
+                        {% capture title %}{{ nationalsStartupsCount }} services pérennisés{% endcapture %}
                     {% else %}
-                        {% capture title %}{{ nationalsStartupsCount }} service national{% endcapture %}
+                        {% capture title %}{{ nationalsStartupsCount }} service pérennisé{% endcapture %}
                     {% endif %}
                     {% include card-highlight.html
                         title=title
-                        description="Les services sont déployés dans toute la France, pour un impact maximal. Ils sont ensuite pérénisés au sein d'une structure adaptée."
+                        description="Une fois déployés dans toute la France, ces services ont été pérennisés au sein d'une structure adaptée."
                         icon="/assets/images/icons/incubateur/internet.svg"
                     %}
                 </div>

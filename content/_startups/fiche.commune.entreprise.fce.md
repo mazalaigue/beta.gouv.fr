@@ -1,6 +1,5 @@
 ---
-mission: Faciliter l’accès aux informations disponibles sur les entreprises et
-  les échanges entre les agents publics
+mission: Faciliter l’accès aux informations disponibles sur les entreprises et les échanges entre les agents publics
 incubator: sgmas
 repository: https://github.com/SocialGouv/fce
 contact: bce@travail.gouv.fr
@@ -27,8 +26,9 @@ phases:
     start: 2021-01-01
     end: 2022-05-01
   - name: success
-    start: 2022-11-30
-    end: 2023-08-23
+    start: 2022-12-01
+thematiques: []
+techno: []
 ---
 ## Contexte
 
@@ -87,25 +87,8 @@ Restituer à un décideur (Préfet, Ministre…), en un minimum de temps, une fi
 
 **2- Pour les entreprises**
 
-Mieux connues a priori par l'administration, les entreprises ont une vision d’une administration mieux intégrée et donc plus performante. Elles bénéficient directement de cette meilleure utilisation collective des informations par le biais de contrôles ou d’interventions adaptés à leur situation et à leurs relations avec l’administration.
-
-## Stratégie
-
-* marketing du produit (logo, slogan, landing page, nouvelles pages)
-* tutos vidéos
-* kit de communication
-* mise en place d’une stratégie d’acquisition 
-* mise en place d’une newsletter
-* *scrapping* contacts Direccte 
-* organisation de webinaires
-* publications sur les intranets et lettres d'information
-
-**Objectif visé** :
-
-* Atteindre 5000 utilisateurs sur les 9000 potentiels de FCE
-
-L'équipe poursuit la recherche de ses mesures d'impact.
+Mieux connues a priori par l'administration, les entreprises ont une vision d’une administration mieux intégrée et donc plus performante. Elles bénéficient directement de cette meilleure utilisation collective des informations par le biais de contrôles ou d’interventions adaptés à leur situation et à leurs relations avec l’administration. 
 
 \----
 
-Le produit a été transféré à la Direction du Numérique des Ministères sociaux fin 2022.
+Le produit a été transféré à la Sous-Direction des Projets et Services Numériques (SDPSN) de la Direction du Numérique des Ministères sociaux fin 2022.

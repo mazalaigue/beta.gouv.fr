@@ -33,6 +33,10 @@ mapping:
               required:  yes
             "employer":
               type:      str
+            "startups":
+              type:      seq
+              sequence:
+                  - type:      any
   "incubator":
     type:      str
   "startups":
@@ -51,7 +55,7 @@ mapping:
             - segur
   "domaine":
     type:      str
-    enum:      [Animation, Coaching, Déploiement, Design, Développement, Intraprenariat, Produit, Autre]
+    enum:      [Animation, Coaching, Data, Déploiement, Design, Développement, Intraprenariat, Produit, Autre]
     required:  yes
   "competences":
     type:      seq

@@ -2,9 +2,9 @@
 title: OILHI
 mission: Faciliter le traitement des cas d'habitat indigne
 sponsors:
+  - /organisations/dgaln
   - /organisations/dhup
   - /organisations/ditp
-  - /organisations/dgaln
 incubator: mtes
 link: https://oilhi.beta.gouv.fr
 contact: marie-laurence.leterme@pas-de-calais.gouv.fr
@@ -15,6 +15,8 @@ phases:
     end: 2022-06-15
   - name: construction
     start: 2022-06-26
+thematiques:
+  - Logement
 ---
 ## Contexte
 

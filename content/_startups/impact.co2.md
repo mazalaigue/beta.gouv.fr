@@ -1,15 +1,14 @@
 ---
 title: Impact CO2
-mission: >-
-  Le site internet qui vulgarise et valorise les données environnementales de l'ADEME
+mission: Le site internet qui vulgarise et valorise les données environnementales de l'ADEME
 sponsors:
   - /organisations/ademe
 incubator: ademe
 contact: impactco2@ademe.fr
-link: https://impactco2.fr/
+link: https://impactco2.fr
 repository: https://github.com/incubateur-ademe/impactco2
 accessibility_status: partiellement conforme
-dashlord_url: https://incubateur-ademe.github.io/dashlord/url/impactco2-fr/
+dashlord_url: https://dashlord.incubateur-ademe.beta.gouv.fr/startup/impact.co2
 stats: true
 stats_url: https://impactco2.fr/stats
 budget_url: https://impactco2.fr/budget
@@ -18,21 +17,23 @@ analyse_risques_url: https://github.com/incubateur-ademe/impactco2/blob/main/SEC
 phases:
   - name: construction
     start: 2021-02-01
+  - name: success
+    comment: Spin-off de Datagir
+    start: 2022-06-13
   - name: acceleration
     start: 2022-09-01
-  - name: success
-    start: 2022-06-13
-    comment: Spin-off de Datagir
 techno:
-    - Next.js
-    - React
-    - TypeScript
-    - public.codes
-    - Prisma
+  - Next.js
+  - React
+  - TypeScript
+  - public.codes
+  - Prisma
 usertypes:
   - particulier
   - entreprise
   - collectivite-territoriale
+thematiques:
+  - Écologie
 ---
 ## Problème 👀
 
@@ -66,11 +67,11 @@ Nos objectifs pour nos relais sont :
 * **Outiller et fidéliser nos réutilisateurs** avec des ressources personnalisables sur un large panel de thématiques (Alimentation, Transport, Numérique, Chauffage, etc.) ;
 * **Faciliter la diffusion et/ou l’intégration de nos ressources** à de nouveaux contenus de sensibilisation.
 
-Les données sur lesquelles sont basées les ressources sont en *open data* : [jeux de données ouverts de l'ADEME](https://data.ademe.fr/), [](https://librairie.ademe.fr/)[études de l'ADEME](https://librairie.ademe.fr/), [base Empreinte](https://base-empreinte.ademe.fr/) et [base Agribalyse](https://agribalyse.ademe.fr/). Le code source du site et la méthodologie de calcul sont entièrement open source et accessibles sur notre [repo GitHub](https://github.com/datagir/impactco2).
+Les données sur lesquelles sont basées les ressources sont en *open data* : [jeux de données ouverts de l'ADEME](https://data.ademe.fr/), [études de l'ADEME](https://librairie.ademe.fr/), [base Empreinte](https://base-empreinte.ademe.fr/) et [base Agribalyse](https://agribalyse.ademe.fr/). Le code source du site et la méthodologie de calcul sont entièrement open source et accessibles sur notre [repo GitHub](https://github.com/datagir/impactco2).
 
 ## Stratégie 📈
 
-[](http://impactco2.fr/)Impact CO2 rassemble aujourd'hui **près d’1 000 000 visites** depuis son lancement en février 2021, et bénéficie d’une visibilité grandissante auprès des acteurs publics et privés. L'impact recherché est donc d’accroître l'utilisation et le partage du site et des contenus proposés, ceci afin d’**accélérer la diffusion de l'information environnementale pour nos relais et le grand public** (approche B2B2C).
+[Impact CO2](http://impactco2.fr/) rassemble aujourd'hui **près d’1 000 000 visites** depuis son lancement en février 2021, et bénéficie d’une visibilité grandissante auprès des acteurs publics et privés. L'impact recherché est donc d’accroître l'utilisation et le partage du site et des contenus proposés, ceci afin d’**accélérer la diffusion de l'information environnementale pour nos relais et le grand public** (approche B2B2C).
 
 L'approche est simple :
 
@@ -83,11 +84,11 @@ L'approche est simple :
 
 Impact CO2 est un service numérique conçu selon l’**approche Startup d’État** et piloté par l’impact.
 
-#### Indicateur Étoile du Nord ⭐
+### Indicateur Étoile du Nord ⭐
 
 * Nombre d’utilisations de nos ressources (vues, téléchargements, partages et intégrations *iframe).*
 
-#### Métriques de suivi 🖋️
+### Métriques de suivi 🖋️
 
 * **Visites** :
 

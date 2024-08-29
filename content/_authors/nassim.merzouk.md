@@ -5,11 +5,23 @@ domaine: Déploiement
 github: nassimmzk
 missions:
   - start: 2020-05-12
-    end: 2024-12-31
+    end: 2025-01-31
     status: independent
     employer: MALT
+    startups:
+      - api-engagement
+      - jeveuxaider
 startups:
   - api-engagement
 previously:
   - jeveuxaider
+link: https://www.linkedin.com/in/merzouknassim/
+competences:
+  - Croissance
+  - Coaching
+  - Communication
+  - Business Developpement
+  - Négociation
+  - Stratégie Commercial
+  - Stratégie de Partenariat
 ---

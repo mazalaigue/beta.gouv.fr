@@ -14,21 +14,21 @@ missions:
     status: independent
     employer: LBC
   - start: 2023-06-26
-    end: 2024-03-31
+    end: 2024-10-31
     status: independent
     employer: Malt
   - start: 2024-01-01
-    end: 2024-06-30
+    end: 2024-09-30
     status: independent
     employer: LBC
 startups:
   - urbanvitaliz
-  - recoco
+  - recommandations-collaboratives
   - place-de-marche-inclusion
 previously:
   - cnr
   - la.communaute.de.linclusion
-  - itou
+  - les-emplois
 competences:
   - Développement Frontend
   - Développement Backend

@@ -2,7 +2,7 @@
 fullname: Noémie Peignier-Pousseo
 role: Responsable de l'Atelier numérique du MEAE
 domaine: Animation
-github : PNoemie 
+github: PNoemie
 missions:
   - start: 2021-03-08
     end: 2024-12-31
@@ -11,7 +11,6 @@ missions:
 previously:
   - expresso
 teams:
-- /teams/latelier.numerique.du.ministere.de.leurope.et.des.affaires.etrangeres
+  - /teams/atelier_meae
 ---
-
 Responsable de l'Atelier numérique du MEAE
