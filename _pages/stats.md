@@ -48,6 +48,7 @@ additional_js:
       ></iframe>
       {%- capture alt -%}
       Ce diagramme en barres présente le nombre de produits ayant atteint l'impact national depuis 2013. En 2023, nous avons surpassé notre objectif de 5 nouveaux produits atteignant l'impact national : 6 produits ont atteint ce niveau.
+      <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/dc69430c-3929-4ca3-9d29-f6bb9f06c037.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Produits à impact national' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
       {%- endcapture -%}
       {% include transcription.html id="snin" title="Produits à impact national" alt=alt %}
       <h2 class="fr-mt-4w" id="launching">Nombre de produits lancés par an</h2>
@@ -61,6 +62,7 @@ additional_js:
       ></iframe>
       {%- capture alt -%}
       Ce diagramme en barres présente le nombre de produits lancés. Il est en évolution constante. Depuis 2020, nous atteignons quasiment notre objectif de 50 nouveaux produits par an.
+      <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/0e1d0920-fdd9-4d92-82cc-f8685cc063c5.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Nombre de produits lancés par an' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
       {%- endcapture -%}
       {% include transcription.html id="launch-per-year" title="Nombre de produits lancés par an" alt=alt %}
       <h2 class="fr-mt-4w" id="standards-qualite">Respect des standards de qualité</h2>
@@ -77,6 +79,7 @@ additional_js:
             ></iframe>
             {%- capture alt -%}
             Ce diagramme en barres indique le taux d'ouverture des codes sources selon la phase de vie d'un projet. Plus de 90 % des services en accélération, transfert et pérénisation ouvrent leur code source (contre environ 50 % au stade de construction).
+            <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/df66b4b5-da83-4131-90a5-52b7c68f10e0.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Ouverture des codes sources' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
             {%- endcapture -%}
             {% include transcription.html id="open-source" title="Ouverture des codes sources" alt=alt %}
       </div>
@@ -92,6 +95,7 @@ additional_js:
           ></iframe>
           {%- capture alt -%}
             Ce diagramme en barres indique le taux de publication de la mesure d'impact d'un produit, selon sa phase de vie. Ce taux atteint les 80 % pour les produits en phase d'accélération.
+            <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/4c8c5ab0-2ff1-4d81-abe2-115be0481e0a.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Publication de la mesure d'impact' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
           {%- endcapture -%}
           {% include transcription.html id="stats" title="Publication de la mesure d'impact" alt=alt %}
       </div>
@@ -105,6 +109,7 @@ additional_js:
           ></iframe>
           {%- capture alt -%}
             Ce diagramme en barres indique le nombre de produits suivant leurs bonnes pratiques sur Dashlord, selon leur phase de vie. Ce taux atteint les 60 % pour les produits en phase d'accélération.
+            <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/e5dbecb8-8601-4cfd-916b-faefff27eb60.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Statistiques de présence sur l'outil Dashlord' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
           {%- endcapture -%}
           {% include transcription.html id="dashlord" title="Statistiques de présence sur l'outil Dashlord" alt=alt %}
       </div>
@@ -118,6 +123,7 @@ additional_js:
           ></iframe>
           {%- capture alt -%}
             Ce diagramme en barres indique le statut de conformité (non conforme, partiellement conforme ou non renseigné) des produits, selon leur phase de vie. Le nombre de produits non audités réduit en phase de pérénisation. 
+            <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/bde0b5e2-0e30-4df4-954d-a458b7b3f1db.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Statistiques de conformité en accessibilité numérique des produits' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
           {%- endcapture -%}
           {% include transcription.html id="conformite-rgaa" title="Statistiques de conformité en accessibilité numérique des produits" alt=alt %}
       </div>
@@ -132,6 +138,7 @@ additional_js:
       ></iframe>
       {%- capture alt -%}
         Ce diagramme en barres indique le nombre de nouveaux membres (prestataires, indépendants ou agents publics) pour chaque année. Depuis 2021, au moins 300 prestataires et 150 agents publics nous rejoignent chaque année. 
+        <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/493930f1-f3d2-4df5-a5f8-a67d593addc5.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Statistiques sur les nouveaux membres, par année' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
       {%- endcapture -%}
       {% include transcription.html id="nouveaux-membres" title="Statistiques sur les nouveaux membres, par année" alt=alt %}
       <h2 class="fr-mt-4w" id="network">Réseau d'incubateur</h2>
@@ -142,7 +149,8 @@ additional_js:
           title="Statistiques sur les incubateurs du réseau, par phase (description détaillée disponible ci-après)"
       ></iframe>
       {%- capture alt -%}
-        Ce diagramme en barres indique le nombre de produits pour chaque incubateur. Cela varie de 1 ou 2 produits pour les petits incubateurs à presque une cinquantaine pour les plus gros. 
+        Ce diagramme en barres indique le nombre de produits pour chaque incubateur. Cela varie de 1 ou 2 produits pour les petits incubateurs à presque une cinquantaine pour les plus gros.
+        <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/3a9c4d96-43e6-4b82-b44d-6f99cd9ca604.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Statistiques sur les incubateurs du réseau, par phase' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
       {%- endcapture -%}
       {% include transcription.html id="produits-incubateurs" title="Statistiques sur les incubateurs du réseau, par phase" alt=alt %}
       <div class="fr-grid-row fr-grid-row--gutters">
@@ -154,6 +162,7 @@ additional_js:
           ></iframe>
           {%- capture alt -%}
             Ce diagramme en barres indique le nombre de produits lancés dans chaque incubateur en 2022.
+            <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/bb37a864-df62-43b9-ae42-3a097da5ddae.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Statistiques sur les produits lancés en 2022 par incubateur' au format XLSX">Télécharger les données 'au format XLSX <span class="fr-link__detail"> </span></a>
           {%- endcapture -%}
           {% include transcription.html id="produits-incubateurs-2022" title="Statistiques sur les produits lancés en 2022 par incubateur" alt=alt %}
         </div>
@@ -165,6 +174,7 @@ additional_js:
           ></iframe>
           {%- capture alt -%}
             Ce diagramme en barres indique le nombre de produits lancés dans chaque incubateur en 2023.
+            <a data-fr-assess-file download="true" href="https://betagouv-animation-metabase.osc-secnum-fr1.scalingo.io/public/question/5709d2c1-7ad2-4a49-b6e3-bbf7558ce2c3.xlsx?parameters=%5B%5D" class="fr-link fr-link--download" aria-label="Télécharger les données 'Statistiques sur les produits lancés en 2023 par incubateur' au format XLSX">Télécharger les données au format XLSX <span class="fr-link__detail"> </span></a>
           {%- endcapture -%}
           {% include transcription.html id="produits-incubateurs-2023" title="Statistiques sur les produits lancés en 2023 par incubateur" alt=alt %}
         </div>
